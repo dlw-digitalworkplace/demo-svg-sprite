@@ -1,0 +1,8 @@
+{
+  "mode": {
+    "symbol": {
+      "dest": "public/",
+      "sprite": "svg-symbols.svg"
+    }
+  }
+}
