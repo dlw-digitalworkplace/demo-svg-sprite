@@ -4,7 +4,9 @@ import Symbols from "./svg-symbols/Sybmols";
 function App() {
   return (
     <div className="App">
-      Add SVGs
+      <svg>
+        <use xlinkHref={`${Symbols.FilePath}${Symbols.Icon.IcoFolder}`} />
+      </svg>
     </div>
   );
 }
